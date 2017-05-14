@@ -1,0 +1,237 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  src: url('../fonts/GothamRnd-Medium.otf');
+}
+@font-face {
+  font-family: "Gotham-light";
+  font-style: normal;
+  src: url('../fonts/GothamRnd-Light.otf');
+}
+@font-face {
+  font-family: 'MyriadPro';
+  font-style: normal;
+  src: url('../fonts/MyriadPro.ttf');
+}
+
+@media only screen and (max-width: 1010px) {
+    footer, .grad, .head {
+        width: 1010px;
+    }
+}
+
+body {
+	font-family: Arial;
+}
+
+.navbar {min-height:88px !important;}
+.head{
+    color: #001f5a;
+    font-family: "Gotham", Arial;
+}
+.head-info{
+    float:right;
+    margin-top:10px;
+     color: #000000;
+}
+.head-info ul {
+    list-style-image: url('../images/check.jpg');
+}
+
+.findalawyer{
+	font-size: 38px;
+	color: white;
+	font-family: 'MyriadPro';
+	margin-top: 30px;
+	display: inline-block;
+}
+.row{
+
+	font-family: 'Gotham';
+	margin-top:30px;
+}
+.row span, .cantfindcat a{
+	color: white;
+}
+.row span{
+	display: inline-block;
+	margin: 5px
+}
+.cantfindcat{
+	font-family: 'MyriadPro';
+	font-size: 18px;
+	color: white;
+	margin:5px 0px 5px 60px;
+}
+.fast{
+	font-size: 23px;
+	color: white;
+	font-family: 'Gotham';
+	margin-top: -5px;
+	display: inline-block;
+}
+div .col1 div{
+	margin-bottom:30px;
+}
+.review{
+	font-family: 'MyriadPro';
+	font-size: 22px;
+}
+.grad {
+    background: #073b7a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#073b7a, #147ab7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#073b7a, #147ab7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#073b7a, #147ab7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#073b7a, #147ab7); /* Standard syntax */
+    margin-top:-21px
+}
+.myselect, input[type=text]{
+  background-size: 50px 54px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  border-radius: 40px;/*rounded border */
+  border: 1px solid grey;
+  padding: 10px 25px 10px 60px;
+  height: 55px;
+  width : 400px;
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+input[type=text]{
+ background-image: url('../images/input1.jpg');
+}
+.myselect{
+ background-image: url('../images/input2.jpg');
+}
+
+input[type="text"], select { 
+    outline: none;
+}
+.content {   
+  overflow:auto;
+  width: 500px;
+  color: white;
+  font-family: 'MyriadPro';
+  padding:0px;
+  border: 1px #4f8ebb;
+  border-style: none none solid none;
+}
+.content span{
+    margin: 0px;
+    padding:0px;
+    display:inline-flex;
+}
+.content .right span{
+    font-family: 'Gotham';
+   font-size: 15px; 
+}
+.left {
+  width: 20%; 
+  text-align: center;
+}
+.left span{
+    font-size: 11px
+}
+.right {
+  width: 79%; 
+  margin-top: -12px;
+  
+}
+.left {   
+  float:left; 
+}
+.right {   float:right; 
+}
+div.read a, .read{
+    text-align: right;
+    font-size: 11px;
+    color: #fbd243;
+}
+
+.fname{
+   font-family: 'Gotham';
+   font-size: 18px; 
+}
+
+/* footer*/
+footer {
+    margin: 20px 0;
+    text-align: center;
+    color: #a8aaac;
+}
+footer a {
+	color: #a8aaac;
+}
+
+footer .f-desc{
+	margin-top:30px;
+}
+footer .row{
+	font-size: 12px;
+	font-family: 'MyriadPro';
+}
+
+
+/* modals css */
+.modal-title, .modal-mycustom-body{
+  font-family: 'Gotham-light';
+   font-size: 14px; 
+   color:#000;
+}
+.modal-mycustom-body h5{
+  font-family: 'Gotham';
+   font-size: 14px; 
+   color:#000;
+   text-align: left;
+}
+.btn-lg.round {
+  border-radius: 24px;
+}
+.modal-title{
+   font-size: 18px; 
+   text-align: left;
+}
+.lawyer-info,
+.modal-mycustom-body h5,
+div .pre-scrollable{
+  padding: 0px 17px 0px 27px;
+  font-size: 12px; 
+}
+div .pre-scrollable p{
+  text-align: justify;
+}
+
+div .pre-scrollable p.border{
+  border: 1px #03132D;
+  border-style: solid none none none;
+  padding-top: 20px;
+}
+
+span.review1,
+span.review2{
+  font-family: 'Gotham';
+}
+span.review1{
+   font-size: 24px; 
+}
+span.review2{
+   font-size: 14px; 
+}
+span.review3 a{
+  color:#02336D;
+}
+span.review4{
+   font-size: 12px; 
+}
+
+#locationField_loc {
+  height: 20px;
+  margin-bottom: 2px;
+}
